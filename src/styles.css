@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-justify: auto;
+    background-color: hsla(0, 0%, 100%, 0.885);
+}
+
+a:hover{
+    background-color:blue ;
+}
+
+.navbar{
+    background-color: #4169E1;
+}
+.navbar a{
+    position: relative;
+    display: inline;
+}
+
+.nav-link {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.formulario{
+    width: 50%;
+    margin: 2em auto;
+    background-color: #4169E1;
+    border-radius: 5px;
+       
+}
+
+.form-notebook{
+    width: 70%;
+    margin: 2em auto;
+    padding-left: 1.0em; /* espaçamento esquerdo */
+    padding-right: 1.0em; /* espaçamento direito */
+    padding-top:  1.0em; /* espaçamento superior */
+    padding-bottom: 0.1em; /* espaçamento inferior */
+    border-left: 2px solid; /* borda branca contornando o form */
+    border-right: 2px solid; /* borda branca contornando o form */
+    border-top: 2px solid; /* borda branca contornando o form */
+    border-bottom: 2px solid; /* borda branca contornando o form */
+    
+}
+
+.titulo-formulario{
+    padding: 0.5em;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.titulo-formulario h1 {
+    margin: 0;
+}
+
+.tabela{
+    margin: auto;
+}
+
+.buttons {
+    width: 60%;
+    margin: 2em auto;   
+}
