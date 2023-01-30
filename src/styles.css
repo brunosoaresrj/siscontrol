@@ -31,21 +31,14 @@ body{
        
 }
 
-.form-notebook{
-    width: 70%;
-    margin: 2em auto;
-    padding-left: 1.0em; /* espaçamento esquerdo */
-    padding-right: 1.0em; /* espaçamento direito */
-    padding-top:  1.0em; /* espaçamento superior */
-    padding-bottom: 0.1em; /* espaçamento inferior */
-    border-left: 2px solid; /* borda branca contornando o form */
-    border-right: 2px solid; /* borda branca contornando o form */
-    border-top: 2px solid; /* borda branca contornando o form */
-    border-bottom: 2px solid; /* borda branca contornando o form */
+#form-notebook{
+    margin: 2em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
     
 }
 
-.titulo-formulario{
+#titulo-formulario{
     padding: 0.5em;
     border-bottom: 1px solid;
     text-align: center;
@@ -59,7 +52,9 @@ body{
     margin: auto;
 }
 
-.buttons {
-    width: 60%;
-    margin: 2em auto;   
+#form-buttons {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 2em 2em 2em 2em;   
 }
