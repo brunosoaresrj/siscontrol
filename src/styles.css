@@ -5,6 +5,10 @@ body{
     background-color: hsla(0, 0%, 100%, 0.885);
 }
 
+.logo{
+    font-size: 2em;
+}
+
 .navbar a:hover{
     color: darkkhaki;
     padding-left: 10px;
@@ -12,6 +16,8 @@ body{
 
 .navbar{
     background-color:darkslategrey;
+    display: flex;
+    flex-direction: row;
 }
 .navbar a{
     position: relative;
@@ -24,19 +30,14 @@ body{
 }
 
 .formulario{
-    width: 50%;
-    margin: 2em auto;
     background-color:darkslategrey;
     border-radius: 5px;
        
 }
 
 #form-notebook{
-    margin: 2em 2em 2em 2em;
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;  
 }
 
 #titulo-formulario{
@@ -64,8 +65,4 @@ body{
 
 .space-button {
     margin: 0 1em 0 0;
-}
-
-.logo{
-    font-size: 3em;
 }
